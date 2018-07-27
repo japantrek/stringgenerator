@@ -23,6 +23,8 @@ class RandomStringTwigExtension extends \Twig_Extension
 
     /**
      * {@inheritdoc}
+     *
+     * @see \Twig_ExtensionInterface::getName()
      */
     public function getName()
     {
