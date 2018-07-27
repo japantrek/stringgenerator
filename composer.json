@@ -10,8 +10,12 @@
 	],
 	"autoload" : {
 		"psr-4" : {
-			"nvbooster\\StringGenerator" : "src"
+			"nvbooster\\StringGenerator\\" : "src/"
 		}
+	},
+	"require" : {
+		"php" : ">=5.5",
+		"ext-mbstring" : "*"
 	},
 	"suggest" : {
 		"symfony/twig-bundle" : "For loading twig extensions",
@@ -22,8 +26,5 @@
 		"branch-alias" : {
 			"dev-trunk" : "1.x-dev"
 		}
-	},
-	"require" : {
-		"ext-mbstring" : "*"
 	}
 }
