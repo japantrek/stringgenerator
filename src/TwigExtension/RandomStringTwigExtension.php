@@ -20,14 +20,4 @@ class RandomStringTwigExtension extends \Twig_Extension
             new \Twig_SimpleFunction('stringgenerator_generate', StringGenerator::class.'::generate'),
         ];
     }
-
-    /**
-     * {@inheritdoc}
-     *
-     * @see \Twig_ExtensionInterface::getName()
-     */
-    public function getName()
-    {
-        return 'nvbooster_stringgenerator_twigextension';
-    }
 }
